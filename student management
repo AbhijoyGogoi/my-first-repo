@@ -1,4 +1,4 @@
-# my-first-repoimport mysql.connector as conn
+import mysql.connector as conn
 import os
 myconn = conn.connect(host="localhost", user="root",password="AbhijoyGogoi12@", database='school')
 cursor = myconn.cursor()
